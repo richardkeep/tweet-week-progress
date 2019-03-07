@@ -24,8 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('tweet:week-progress')
-                 ->everyFiveMinutes();
+        // $schedule->command('inspire')
+        //          ->hourly();
     }
 
     /**
