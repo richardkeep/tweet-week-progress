@@ -1,0 +1,72 @@
+[15-Sep-2018 15:24:31 Africa/Nairobi] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => '#FPL,#IkoKaziKe',)
+[15-Sep-2018 15:24:31 Africa/Nairobi] Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+[15-Sep-2018 15:24:31 Africa/Nairobi] Phirehose: Connection established to stream.twitter.com
+[15-Sep-2018 15:24:31 Africa/Nairobi] Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 27
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="CnxGvorabdzTx0rbc3cLFg",oauth_nonce="4099006a5d7fa6670d0bd7bfd5073fab",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1537014271",oauth_version="1.0A",oauth_token="131544549-mslBAjRYguw4GdVy1dZ1Kq11YIHPjUx1H5sQivr5",oauth_signature="ni7%2BQaoWS62OVliWukPnev2EzbE%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=%23FPL%2C%23IkoKaziKe
+
+
+[15-Sep-2018 15:25:34 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (16 total), avg enqueueStatus(): 2.66ms, avg checkFilterPredicates(): 0ms (6 total) over 63 seconds, max stream idle period: 10 seconds.
+[15-Sep-2018 15:26:35 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (18 total), avg enqueueStatus(): 1.7ms, avg checkFilterPredicates(): 0ms (8 total) over 61 seconds, max stream idle period: 9 seconds.
+[15-Sep-2018 15:27:35 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (18 total), avg enqueueStatus(): 2.32ms, avg checkFilterPredicates(): 0ms (8 total) over 60 seconds, max stream idle period: 9 seconds.
+[15-Sep-2018 15:28:45 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (13 total), avg enqueueStatus(): 2.58ms, avg checkFilterPredicates(): 0ms (8 total) over 70 seconds, max stream idle period: 18 seconds.
+[15-Sep-2018 15:35:09 Africa/Nairobi] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => '#FPL,#IkoKaziKe',)
+[15-Sep-2018 15:35:09 Africa/Nairobi] Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+[15-Sep-2018 15:35:09 Africa/Nairobi] Phirehose: Connection established to stream.twitter.com
+[15-Sep-2018 15:35:09 Africa/Nairobi] Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 27
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="CnxGvorabdzTx0rbc3cLFg",oauth_nonce="82dfc2cfba1ead85d32be4e6ffd5f37b",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1537014909",oauth_version="1.0A",oauth_token="131544549-mslBAjRYguw4GdVy1dZ1Kq11YIHPjUx1H5sQivr5",oauth_signature="y2mx4WwIjN6lZpNLJRWG5NhcIMk%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=%23FPL%2C%23IkoKaziKe
+
+
+[15-Sep-2018 15:36:47 Africa/Nairobi] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => '#FPL,#IkoKaziKe',)
+[15-Sep-2018 15:36:47 Africa/Nairobi] Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+[15-Sep-2018 15:36:47 Africa/Nairobi] Phirehose: Connection established to stream.twitter.com
+[15-Sep-2018 15:36:47 Africa/Nairobi] Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 27
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="CnxGvorabdzTx0rbc3cLFg",oauth_nonce="f0b29369b21b5fa32dffd950df55c58b",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1537015007",oauth_version="1.0A",oauth_token="131544549-mslBAjRYguw4GdVy1dZ1Kq11YIHPjUx1H5sQivr5",oauth_signature="jHGLPJUlxjge%2FFsapiEa9a8tZjs%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=%23FPL%2C%23IkoKaziKe
+
+
+[15-Sep-2018 15:37:53 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (9 total), avg enqueueStatus(): 5.55ms, avg checkFilterPredicates(): 0ms (5 total) over 66 seconds, max stream idle period: 14 seconds.
+[15-Sep-2018 15:39:07 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (12 total), avg enqueueStatus(): 2.33ms, avg checkFilterPredicates(): 0ms (8 total) over 74 seconds, max stream idle period: 17 seconds.
+[15-Sep-2018 15:40:15 Africa/Nairobi] Phirehose: Consume rate: 1 status/sec (36 total), avg enqueueStatus(): 2.64ms, avg checkFilterPredicates(): 0ms (8 total) over 68 seconds, max stream idle period: 12 seconds.
+[15-Sep-2018 15:41:16 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (9 total), avg enqueueStatus(): 2.41ms, avg checkFilterPredicates(): 0ms (7 total) over 61 seconds, max stream idle period: 11 seconds.
+[20-Dec-2018 19:33:39 Africa/Nairobi] Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => '#FPL,#IkoKaziKe',)
+[20-Dec-2018 19:33:39 Africa/Nairobi] Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+[20-Dec-2018 19:33:40 Africa/Nairobi] Phirehose: Connection established to stream.twitter.com
+[20-Dec-2018 19:33:40 Africa/Nairobi] Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 27
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="CnxGvorabdzTx0rbc3cLFg",oauth_nonce="9c8b8fb7febe22f29718829915edafdb",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1545323620",oauth_version="1.0A",oauth_token="131544549-mslBAjRYguw4GdVy1dZ1Kq11YIHPjUx1H5sQivr5",oauth_signature="S2vs%2BbZtARkaobqGJe2YEFj8qgs%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=%23FPL%2C%23IkoKaziKe
+
+
+[20-Dec-2018 19:34:42 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (6 total), avg enqueueStatus(): 12.69ms, avg checkFilterPredicates(): 0ms (4 total) over 62 seconds, max stream idle period: 22 seconds.
+[20-Dec-2018 19:35:46 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (4 total), avg enqueueStatus(): 0.77ms, avg checkFilterPredicates(): 0ms (5 total) over 64 seconds, max stream idle period: 21 seconds.
+[20-Dec-2018 19:36:53 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (10 total), avg enqueueStatus(): 0.87ms, avg checkFilterPredicates(): 0ms (6 total) over 67 seconds, max stream idle period: 18 seconds.
+[20-Dec-2018 19:37:57 Africa/Nairobi] Phirehose: Consume rate: 0 status/sec (6 total), avg enqueueStatus(): 1.84ms, avg checkFilterPredicates(): 0ms (5 total) over 64 seconds, max stream idle period: 22 seconds.
