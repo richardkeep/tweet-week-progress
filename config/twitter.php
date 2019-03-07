@@ -1,8 +1,8 @@
 <?php
 
 return [
-	'consumer_key' 		=> 	env('CONSUMER_KEY'),
-	'consumer_secret' 	=> 	env('CONSUMER_SECRET'),
-	'token' 			=>	env('TOKEN'),
-	'secret' 			=> env('SECRET'),
+	'consumer_key' 		=> 	env('TWITTER_CONSUMER_KEY'),
+	'consumer_secret' 	=> 	env('TWITTER_CONSUMER_SECRET'),
+	'token' 			=>	env('TWITTER_TOKEN'),
+	'secret' 			=> env('TWITTER_SECRET'),
 ];
