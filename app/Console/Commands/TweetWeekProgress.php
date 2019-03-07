@@ -44,12 +44,12 @@ class TweetWeekProgress extends Command
 
     public function tweet()
     {
-         $connection = new TwitterOAuth(
+         (new TwitterOAuth(
             config('twitter.consumer_key'),
             config('twitter.consumer_secret'),
             config('twitter.token'),
             config('twitter.secret')
-         )->post('statuses/update', [
+         ))->post('statuses/update', [
              'status' => $this->weekProgress()
         ]);
     }
