@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Events\FetchQuote;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -24,8 +25,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('tweet:week-progress')
-                ->everyThirtyMinutes();
+        $schedule->command('tweet:week-progress')->everyThirtyMinutes();
+        $schedule->call(function () {
+            $data = json_decode(file_get_contents('https://favqs.com/api/qotd'));
+            event(new FetchQuote($data->quote));
+        })->everyMinute();
     }
 
     /**
