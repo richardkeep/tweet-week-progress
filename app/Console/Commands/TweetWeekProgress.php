@@ -35,10 +35,10 @@ class TweetWeekProgress extends Command
     public function tweet()
     {
          (new TwitterOAuth(
-            config('twitter.consumer_key'),
-            config('twitter.consumer_secret'),
-            config('twitter.token'),
-            config('twitter.secret')
+            config('services.twitter.consumer_key'),
+            config('services.twitter.consumer_secret'),
+            config('services.twitter.access_token'),
+            config('services.twitter.access_token_secret')
          ))->post('statuses/update', [
              'status' => $this->weekProgress()
         ]);
